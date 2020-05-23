@@ -1,0 +1,1 @@
+document.write('<!-- Footer --><footer class="page-footer font-small text-center bg-dark text-white"><!-- Copyright --><div class="footer-copyright text-center  gray-dark bg-primary p-3">© 2020 Copyright: Sanjive Agarwal</div><!-- Copyright --></footer>')

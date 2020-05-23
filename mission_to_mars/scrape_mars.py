@@ -89,6 +89,8 @@ def scrape():
     # Get the latest tweet and replace the new line ('\n') character with a
     # space (' ') character within the body of text.
     latest_tweet = tweets[0].find('span').text.replace('\n', ' ')
+    # Adding <br> tag to allow for moe readable display of the weather in the web page
+    latest_tweet = latest_tweet.replace(')', ')<br>')
 
     # Store the info in the mars_dict
     mars_dict['latest_tweet'] = latest_tweet
